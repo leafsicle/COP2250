@@ -31,28 +31,6 @@ public class Program43 {
 		String middle = userInput.substring((userInput.indexOf(' ') + 1), userInput.lastIndexOf(' '));
 		String last = userInput.substring((userInput.lastIndexOf(' ') + 1), (userInput.length()));
 
-		int char1 = first.charAt(0);
-		int char2 = middle.charAt(0);
-		int char3 = last.charAt(0);
-
-		// 123
-		if (char1 < char2 && char2 < char3) {
-			System.out.println(first + " " + middle + " " + last);
-			// 132
-		} else if (char1 < char3 && char3 < char2) {
-			System.out.println(first + " " + last + " " + middle);
-			// 213
-		} else if (char2 < char1 && char1 < char3) {
-			System.out.println(middle + " " + first + " " + last);
-			// 231
-		} else if (char2 < char3 && char3 < char1) {
-			System.out.println(middle + " " + last + " " + first);
-			// 312
-		} else if (char3 < char1 && char1 < char2) {
-			System.out.println(last + " " + first + " " + middle);
-			// 321
-		} else if (char3 < char2 && char2 < char1) {
-			System.out.println(last + " " + middle + " " + first);
-		}
+		System.out.println(last+ ", "+ first+" "+ middle);
 	}
 }
