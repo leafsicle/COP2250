@@ -37,13 +37,9 @@ public class Program54 {
 		if(total>0) {
 			//return the total
 			System.out.printf("the total is $%5.2f",total);
-			//this is to prevent it from closing autommatically
-			System.out.println("\npress enter to close");
-			System.exit(1);
 		} else {
 			//since they broke the loop immediately then they didnt have anything to add and create pesky errors
 			System.out.println("Sorry that you didn't want to run the calculator");
-			System.exit(1);
 		}
 	}
 

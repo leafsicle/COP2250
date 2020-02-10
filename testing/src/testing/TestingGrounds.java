@@ -3,12 +3,13 @@ package testing;
 public class TestingGrounds {
 
 	public static void main(String[] args) {
-		double d1 = 1.6, d2 = 8.4;
-		System.out.println(addTwo(d1, d2));
+		int number = 10;
+		doubleNum(number);
+			System.out.println(number+ "words");
 	}
 	
-	public static double addTwo( double num1, double num2 ) {
-		return num1+num2;
+	public static void doubleNum (int n) {
+		System.out.println(n*2);
 	}
 
 }

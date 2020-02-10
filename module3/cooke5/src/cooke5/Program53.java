@@ -12,7 +12,7 @@ public class Program53 {
 		for(int i=5;i<101;i+=5) {
 			double square = Math.sqrt(i);
 			double cube = Math.cbrt(i);
-			System.out.printf("%10.3f%10.3f%10.3f\n",(double)i, square,cube);
+			System.out.printf("%10.1f%10.3f%10.3f\n",(double)i, square,cube);
 		}
 	}
 
