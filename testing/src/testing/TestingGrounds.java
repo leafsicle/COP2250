@@ -1,15 +1,19 @@
 package testing;
 
+import java.util.ArrayList;
+
 public class TestingGrounds {
 
 	public static void main(String[] args) {
-		int number = 10;
-		doubleNum(number);
-			System.out.println(number+ "words");
+		int[] items= {3,2,3,2};
+		//int nums[]= {4,3,5,4};
+//		ArrayList<char> charas = new ArrayList<char>();
+		//ArrayList<Double> stock = new ArrayList<>();
+		for (int i = 0; i < items.length; i++) {
+			System.out.println(items[i]);
+
+		}
 	}
 	
-	public static void doubleNum (int n) {
-		System.out.println(n*2);
-	}
 
 }
