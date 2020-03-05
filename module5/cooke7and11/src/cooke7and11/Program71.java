@@ -27,9 +27,9 @@ public class Program71 {
 		for (int i = 0; i < random.length; i++) {
 			// every 6th value create a new line
 			if ((i + 1) % 6 == 0) {
-				System.out.println(random[i] + " ");
+				System.out.printf("%6d \n",random[i]);
 			} else {
-				System.out.print(random[i] + " ");
+				System.out.printf("%6d ",random[i]);
 			}
 			// add the number to the total
 			total += random[i];
